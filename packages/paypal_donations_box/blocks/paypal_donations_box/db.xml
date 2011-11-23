@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btPaypalDonationsBox">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="useSandbox" type="I">
+			<default value="0"></default>
+		</field>
+		<field name="title" type="C" size="255"></field>
+		<field name="paypal_user" type="C" size="255"></field>		
+		<field name="item_name" type="C" size="255"></field>
+		<field name="item_number" type="C" size="255"></field>
+		<field name="currency_code" type="C" size="3"></field>
+		<field name="currency_symbol" type="C" size="2"></field>
+		<field name="donateButton_fID" type="C" size="255"></field>
+		<field name="amount" type="X"></field>
+	</table>
+</schema>
